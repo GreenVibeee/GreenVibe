@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Green Vibe – Shop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #0f1a14;
+      color: #e8f5e9;
+    }
+
+    header {
+      background: #08110c;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      color: #4caf50;
+      margin-top: 10px;
+      font-size: 2.5rem;
+    }
+
+    .logo {
+      width: 140px;
+      height: 140px;
+      margin: auto;
+      border-radius: 50%;
+      overflow: hidden;
+      box-shadow: 0 0 25px rgba(76,175,80,0.45);
+    }
+
+    .logo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .product {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+
+    .product img {
+      width: 100%;
+      max-height: 320px;
+      object-fit: contain;
+      border-radius: 12px;
+      background: #1b2b21;
+      padding: 10px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    }
+
+    h2 {
+      color: #81c784;
+      border-bottom: 1px solid #2e7d32;
+      padding-bottom: 5px;
+      margin-top: 40px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 10px 0 50px;
+    }
+
+    th, td {
+      border: 1px solid #2e7d32;
+      padding: 8px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #1b2b21;
+    }
+
+    .info {
+      margin-top: 15px;
+      padding: 15px;
+      background: #1b2b21;
+      border-left: 4px solid #4caf50;
+    }
+
+    footer {
+      background: #08110c;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    footer span {
+      color: #4caf50;
+    }
+
+    @media (max-width: 768px) {
+      .product {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">
+    <img src="logo.png" alt="Green Vibe Logo">
+  </div>
+  <h1>Green Vibe</h1>
+</header>
+
+<main>
+
+<!-- BISCOTTI -->
+<section class="product">
+  <img src="biscotti.png" alt="Biscotti">
+  <div>
+    <h2>Biscotti</h2>
+    <p>80% Indica / 20% Sativa</p>
+    <div class="info">🚚 Lieferung ab 3 g (gegen Aufpreis) – vorher nur Abholung</div>
+  </div>
+</section>
+
+<table>
+  <tr><th>Menge</th><th>Preis</th></tr>
+  <tr><td>1 g</td><td>10€</td></tr>
+  <tr><td>2 g</td><td>20€</td></tr>
+  <tr><td>3 g</td><td>25€</td></tr>
+  <tr><td>5 g</td><td>40€</td></tr>
+  <tr><td>10 g</td><td>70€</td></tr>
+</table>
+
+<!-- MIXTO -->
+<section class="product">
+  <img src="mixto.png" alt="Mixto">
+  <div>
+    <h2>Mixto</h2>
+    <p>50% Sativa / 50% Indica</p>
+  </div>
+</section>
+
+<table>
+  <tr><th>Menge</th><th>Preis</th></tr>
+  <tr><td>1 g</td><td>8€</td></tr>
+  <tr><td>2 g</td><td>20€</td></tr>
+  <tr><td>3 g</td><td>25€</td></tr>
+  <tr><td>5 g</td><td>45€</td></tr>
+  <tr><td>10 g</td><td>80€</td></tr>
+</table>
+
+<!-- GELATO -->
+<section class="product">
+  <img src="gelato.png" alt="Gelato">
+  <div>
+    <h2>Gelato</h2>
+    <p>55% Indica / 45% Sativa</p>
+  </div>
+</section>
+
+<table>
+  <tr><th>Menge</th><th>Preis</th></tr>
+  <tr><td>1 g</td><td>10€</td></tr>
+  <tr><td>2 g</td><td>20€</td></tr>
+  <tr><td>3 g</td><td>25€</td></tr>
+  <tr><td>5 g</td><td>45€</td></tr>
+  <tr><td>10 g</td><td>80€</td></tr>
+</table>
+
+<!-- CALI -->
+<section class="product">
+  <img src="pineapple-runz.png" alt="Pineapple Runz">
+  <div>
+    <h2>Pineapple Runz (Cali)</h2>
+    <p>bis zu 29%</p>
+  </div>
+</section>
+
+<table>
+  <tr><th>Menge</th><th>Preis</th></tr>
+  <tr><td>1 g</td><td>15€</td></tr>
+  <tr><td>2 g</td><td>25€</td></tr>
+  <tr><td>3 g</td><td>35€</td></tr>
+  <tr><td>5 g</td><td>55€</td></tr>
+  <tr><td>10 g</td><td>100€</td></tr>
+</table>
+
+<!-- HASCH -->
+<section class="product">
+  <img src="dry-sift.png" alt="Dry Sift Shoreline">
+  <div>
+    <h2>Dry Sift Shoreline</h2>
+  </div>
+</section>
+
+<table>
+  <tr><th>Menge</th><th>Preis</th></tr>
+  <tr><td>1 g</td><td>15€</td></tr>
+  <tr><td>2 g</td><td>25€</td></tr>
+  <tr><td>3 g</td><td>35€</td></tr>
+  <tr><td>5 g</td><td>55€</td></tr>
+</table>
+
+<section class="product">
+  <img src="la-mousse.png" alt="Premium La Mousse">
+  <div>
+    <h2>Premium La Mousse</h2>
+  </div>
+</section>
+
+<table>
+  <tr><th>Menge</th><th>Preis</th></tr>
+  <tr><td>1 g</td><td>10€</td></tr>
+  <tr><td>2 g</td><td>20€</td></tr>
+  <tr><td>3 g</td><td>25€</td></tr>
+  <tr><td>4 g</td><td>30€</td></tr>
+  <tr><td>5 g</td><td>35€</td></tr>
+</table>
+
+</main>
+
+<footer>
+  <p>Kontakt: <span>+49 15511361596</span></p>
+  <p>Telegram: <span>@GreenVibe2</span></p>
+</footer>
+
+</body>
+</html>
